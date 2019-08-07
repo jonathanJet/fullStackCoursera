@@ -89,7 +89,7 @@
                 <form>
 
                     <div class="form-group row">
-                        <label class="col-md-2 col-form-label">Number of Guest nodemon</label>
+                        <label class="col-md-2 col-form-label">Number of Guest</label>
                         <div class="form-check form-check-inline">
                             <input type="radio" class="form-check-input" name="1" id="1" value="">
                             <label class="form-check-label" for="1">
@@ -242,6 +242,9 @@
                         <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon"></span>
                         </a>
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <span id="carousel-button-icon" class="fa fa-pause"></span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -361,6 +364,20 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $("#carouselButton").click(function(){
+        if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+            $("#mycarousel").carousel('pause');
+            $("#carouselButton").children("span").removeClass('fa-pause');
+            $("#carouselButton").children("span").addClass('fa-play');
+        }
+        else if ($("#carouselButton").children("span").hasClass('fa-play')){
+            $("#mycarousel").carousel('cycle');
+            $("#carouselButton").children("span").removeClass('fa-play');
+            $("#carouselButton").children("span").addClass('fa-pause');
+        }
+    });
+</script>
 </body>
 
 </html>
