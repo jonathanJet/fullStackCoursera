@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+/*Services*/
+import { DishService } from './services/dish.service';
+
+/*Components*/
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -16,11 +20,14 @@ import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    DishdetailComponent
+    DishdetailComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -32,7 +39,7 @@ import { DishdetailComponent } from './dishdetail/dishdetail.component';
       MatButtonModule,
       MatListModule
   ],
-  providers: [],
+  providers: [DishService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
