@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d838da71-8465-41cb-bd8e-f28bde2435ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Angular/conFusion/src/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotion.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/about.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/about.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/leader.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/leader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/Task 2/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/shared/leader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/shared/leaders.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/services/dish.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/services/dish.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,50 +43,51 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="29" />
+          <entry key="html" value="38" />
           <entry key="html_" value="1" />
           <entry key="js" value="5" />
           <entry key="json" value="7" />
+          <entry key="leaders" value="1" />
           <entry key="less" value="1" />
           <entry key="scss" value="7" />
-          <entry key="ts" value="33" />
+          <entry key="ts" value="61" />
           <entry key="ts_" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="29" />
+          <entry key="HTML" value="38" />
           <entry key="JSON" value="7" />
           <entry key="JavaScript" value="5" />
           <entry key="Less" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="7" />
-          <entry key="TypeScript" value="33" />
+          <entry key="TypeScript" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="40" />
           <entry key="gitignore" value="3" />
-          <entry key="html" value="1024" />
+          <entry key="html" value="1170" />
           <entry key="js" value="56" />
           <entry key="json" value="77" />
           <entry key="less" value="4" />
           <entry key="scss" value="83" />
-          <entry key="ts" value="169" />
+          <entry key="ts" value="404" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="40" />
-          <entry key="HTML" value="1024" />
+          <entry key="HTML" value="1170" />
           <entry key="JSON" value="77" />
           <entry key="JavaScript" value="56" />
           <entry key="Less" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="83" />
-          <entry key="TypeScript" value="169" />
+          <entry key="TypeScript" value="404" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -94,111 +100,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" selection-start-line="50" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="64" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="315">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/leader.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/leader.service.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/about.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/about.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/services/dish.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/home.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/home.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/header.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Angular/Task 2/routes.ts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -248,16 +200,22 @@
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotion.ts" />
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotions.ts" />
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/services/promotion.service.ts" />
-        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.html" />
-        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.html" />
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.scss" />
-        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts" />
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.html" />
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.html" />
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.ts" />
         <option value="$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/shared/leader.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/shared/leaders.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/services/leader.service.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.html" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.html" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -339,6 +297,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -377,6 +338,15 @@
               <item name="conFusion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullStackCoursera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullStackCoursera" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="conFusion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fullStackCoursera" type="b2602c69:ProjectViewProjectNode" />
@@ -461,6 +431,12 @@
             </path>
             <path>
               <item name="fullStackCoursera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullStackCoursera" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="Task 2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullStackCoursera" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -484,6 +460,9 @@
       <recent name="C:\laragon\www\fullStackCoursera\Angular\conFusion\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\fullStackCoursera\Angular\Task 2" />
+      <recent name="C:\laragon\www\fullStackCoursera\Angular\Task2" />
+      <recent name="C:\laragon\www\fullStackCoursera\Angular\task2" />
       <recent name="C:\laragon\www\fullStackCoursera\Angular\Task 1" />
     </key>
   </component>
@@ -511,16 +490,15 @@
       <updated>1565024166343</updated>
       <workItem from="1565024168230" duration="13808000" />
       <workItem from="1565208926109" duration="24118000" />
-      <workItem from="1565623259836" duration="25923000" />
+      <workItem from="1565623259836" duration="30879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63849000" />
+    <option name="totallyTimeSpent" value="68805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20437019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -553,108 +531,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-social/assets/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="101" selection-start-line="101" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="202" column="25" selection-start-line="202" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles-old.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2924">
-          <caret line="172" column="40" selection-start-line="172" selection-start-column="40" selection-end-line="172" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_mine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="359" column="39" selection-start-line="359" selection-start-column="39" selection-end-line="359" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aboutus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="271" column="7" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -702,26 +578,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/dish.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-49">
           <folding>
             <element signature="e#0#73#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/dishes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -781,51 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotion.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/services/promotion.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" selection-start-line="50" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,46 +657,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.ts">
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="342">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="76" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -890,22 +677,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.ts">
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/dish.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/leader.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/dishes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotion.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/contact/contact.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/header/header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/app-routing/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/services/leader.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/dishdetail/dishdetail.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        <state relative-caret-position="376">
+          <caret line="52" column="23" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/services/promotion.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/leaders.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/shared/promotions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/menu/menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/services/leader.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/about/about.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/conFusion/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/leader.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/leader.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/about.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/about.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/home.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/header.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Task 2/routes.ts">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
