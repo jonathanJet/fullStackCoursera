@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { DishService } from './services/dish.service';
 import { PromotionService } from './services/promotion.service';
 import { LeaderService } from './services/leader.service';
+import { ProcessHTTPMsgService } from './services/process-httpmsg.service';
+
 
 
 import { AppComponent } from './app.component';
@@ -93,7 +95,7 @@ import { LoginComponent } from './login/login.component';
   entryComponents: [
       LoginComponent
   ],
-  providers: [DishService,PromotionService,LeaderService,{provide: 'BaseURL', useValue: baseURL}],
+  providers: [DishService,PromotionService,LeaderService,{provide: 'BaseURL', useValue: baseURL},ProcessHTTPMsgService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
