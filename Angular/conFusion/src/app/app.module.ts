@@ -54,6 +54,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { LoginComponent } from './login/login.component';
+import { HighlightDirective } from './directives/highlight.directive';
 
 
 
@@ -68,6 +69,7 @@ import { LoginComponent } from './login/login.component';
     HomeComponent,
     ContactComponent,
     LoginComponent,
+    HighlightDirective,
 
   ],
   imports: [
