@@ -1,5 +1,9 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, OnInit, Input, ViewChild} from '@angular/core';
 import { Params, ActivatedRoute } from '@angular/router';
+
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Comment } from '../shared/comment';
+
 import { Location } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
 
@@ -17,6 +21,11 @@ import { DishService } from '../services/dish.service';
 
 export class DishdetailComponent implements OnInit {
 
+    @ViewChild('cform') commentFormDirective;
+
+    commentForm: FormGroup;
+    comment: Comment;
+
     dish: Dish;
     dishIds: string[];
     prev: string;
@@ -24,7 +33,31 @@ export class DishdetailComponent implements OnInit {
 
   constructor(private dishservice: DishService,
               private route: ActivatedRoute,
-              private location: Location) { }
+              private location: Location,
+              private fb: FormBuilder) {
+
+      this.createForm();
+
+  }
+
+    createForm(): void {
+        this.commentForm = this.fb.group({
+            author: ['', Validators.required],
+            rating: ['', Validators.required],
+            comment: ['', Validators.required]
+        });
+    }
+
+    onSubmit(): void {
+        this.comment = this.commentForm.value;
+        console.log(this.comment);
+        this.commentForm = this.fb.group({
+            author: ['', Validators.required],
+            rating: ['', Validators.required],
+            comment: ['', Validators.required]
+        });
+        this.commentFormDirective.resetForm();
+    }
 
   ngOnInit() {
       this.dishservice.getDishIds().subscribe(dishIds => this.dishIds = dishIds);
