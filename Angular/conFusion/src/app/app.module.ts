@@ -27,6 +27,12 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { MatDialogModule } from '@angular/material/dialog';
 
+/*HTTP ANGULAR*/
+import { HttpClientModule } from '@angular/common/http';
+import { baseURL } from './shared/baseurl';
+
+
+
 /*TEMPLATE MODULE*/
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -81,12 +87,13 @@ import { LoginComponent } from './login/login.component';
       MatSelectModule,
       MatSlideToggleModule,
       ReactiveFormsModule,
-      MatProgressSpinnerModule
+      MatProgressSpinnerModule,
+      HttpClientModule
   ],
   entryComponents: [
       LoginComponent
   ],
-  providers: [DishService,PromotionService,LeaderService],
+  providers: [DishService,PromotionService,LeaderService,{provide: 'BaseURL', useValue: baseURL}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
