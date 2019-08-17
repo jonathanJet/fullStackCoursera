@@ -14,7 +14,8 @@ import {flyInOut} from "../animations/app.animation";
         'style': 'display: block;'
     },
     animations: [
-        flyInOut()
+        flyInOut(),
+        expand()
     ]
 })
 export class ContactComponent implements OnInit {
@@ -52,8 +53,16 @@ export class ContactComponent implements OnInit {
     }
 
     onSubmit(): void {
+
         this.feedback = this.feedbackForm.value;
         console.log(this.feedback);
+
+        /*this.dishservice.putDish(this.dishcopy)
+            .subscribe(dish => {
+                    this.dish = dish; this.dishcopy = dish;
+                },
+                errmess => { this.dish = null; this.dishcopy = null; this.errMess = <any>errmess; });  */
+
         this.feedbackForm = this.fb.group({
             firstname: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(25)] ],
             lastname: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(25)] ],
